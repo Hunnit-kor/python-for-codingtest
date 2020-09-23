@@ -18,4 +18,3 @@ if count[m]==10001:
   print(-1)
 else:
   print(count[m])
-
