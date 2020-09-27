@@ -1,7 +1,7 @@
 import sys
 
 #문자입력받기
-d=input()
+d=sys.stdin.readline().rstrip()
 #입력받은걸 행과 열이란 변수에 나누기
 row=int(ord(d[0]))-int(ord('a'))+1
 column=int(d[1])
